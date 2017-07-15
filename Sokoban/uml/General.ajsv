@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2017-אפר-05 22:50" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="manual" version="1.9.1.v20170319-1519">
+        <filterScript>
+
+// no filter script yet defined for this class diagram
+// use CTRL+SPACE for completion suggestions
+
+</filterScript>
+        <class className="model.data.Level" modelMemberId="model.data.Level" project="Sokoban" xLocation="-6" yLocation="81"/>
+        <class className="model.MyModel" modelMemberId="model.MyModel" project="Sokoban" xLocation="-171" yLocation="1245"/>
+        <class className="controller.SokobanController" modelMemberId="controller.SokobanController" project="Sokoban" xLocation="489" yLocation="1080"/>
+        <class className="view.IView" modelMemberId="view.IView" project="Sokoban" xLocation="500" yLocation="1550"/>
+        <class className="controller.Controller" modelMemberId="controller.Controller" project="Sokoban" xLocation="647" yLocation="814"/>
+        <class className="model.policy.MySokobanPolicy" modelMemberId="model.policy.MySokobanPolicy" project="Sokoban" xLocation="-451" yLocation="1004"/>
+        <class className="model.data.TxtLevelLoader" modelMemberId="model.data.TxtLevelLoader" project="Sokoban" xLocation="-510" yLocation="71"/>
+        <class className="model.data.ILevelLoader" modelMemberId="model.data.ILevelLoader" project="Sokoban" xLocation="-458" yLocation="792"/>
+        <class className="model.data.XmlLevelLoader" modelMemberId="model.data.XmlLevelLoader" project="Sokoban" xLocation="-454" yLocation="312"/>
+        <class className="model.data.ObjLevelLoader" modelMemberId="model.data.ObjLevelLoader" project="Sokoban" xLocation="-447" yLocation="549"/>
+    </diagram>
+</ajsv>

@@ -1,0 +1,38 @@
+.mainPane {
+    -fx-background-image: url("../../resources/background.jpg");
+    -fx-background-repeat: stretch ;   
+    -fx-background-size: cover ;
+    -fx-background-position: center center;
+    -fx-font-size:15.0px;
+	}
+	
+	.h1{
+		-fx-font-size:30.0;
+		-fx-font-family:Arial;
+		-fx-text-alignment: center ;
+		-fx-pref-width: 1920.0;
+		-fx-smooth:true ;
+		-fx-background-color: rgba(80.0,80.0,80.0,0.7);
+		-fx-text-fill: #ddd;
+		-fx-padding:5.0px;
+		-fx-alignment:"CENTER";
+		-fx-content-display:"CENTER";	
+	}
+	
+	.option-strip{
+		-fx-background-color: rgba(150.0,150.0,150.0,0.8);
+		-fx-pref-width: 1920.0;
+		-fx-spacing:15.0;
+	}
+	
+	.levelContainer{
+		-fx-padding: 20.0px;
+		-fx-background-color: rgba(50.0,50.0,50.0,0.6);
+		-fx-alignment: center ;
+	}
+	.win-window{
+		-fx-background-color: #a1d2f1;
+	}
+		.win-window Label{
+					-fx-font-size:20.0px;
+	}

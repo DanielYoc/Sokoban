@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainPanelController">
+	<children>
+		<Label layoutX="65.0" text="Clients Manager" textAlignment="CENTER" textFill="#326d97">
+			<font>
+				<Font size="36.0" />
+			</font>
+		</Label>
+		<TableView fx:id="peersTableView" layoutX="10.0" layoutY="94.0" prefHeight="280.0" prefWidth="377.0">
+			<columns>
+				<TableColumn prefWidth="125" text="Ip">
+					<cellValueFactory>
+						<PropertyValueFactory property="ip" />
+					</cellValueFactory>
+				</TableColumn>	
+				<TableColumn prefWidth="125" text="Port">
+					<cellValueFactory>
+						<PropertyValueFactory property="port" />
+					</cellValueFactory>
+				</TableColumn>		
+				<TableColumn prefWidth="125" text="Mission">
+					<cellValueFactory>
+						<PropertyValueFactory property="mission" />
+					</cellValueFactory>
+				</TableColumn>		
+			</columns>
+		</TableView>
+		
+      <Button layoutX="13.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#onDisconnectedClick" text="Disconnect seleceted user" />
+      <TextField fx:id="maxConnectionsAllowedTxt" layoutX="11.0" layoutY="406.0" />
+      <Label layoutX="11.0" layoutY="383.0" text="Set max connection:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label> 
+      <Button layoutX="166.0" layoutY="406.0" mnemonicParsing="false" onMouseClicked="#onUpdateMaxConnectionsAllowedClick" text="Update" />
+      <Button layoutX="301.0" layoutY="386.0" mnemonicParsing="false" onMouseClicked="#onOpenServerClick" text="Open server" />
+      <Button layoutX="301.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#onCloseServerClick" prefHeight="25.0" prefWidth="81.0" text="Close server" />
+       
+	</children>
+</AnchorPane>

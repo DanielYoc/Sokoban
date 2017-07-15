@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2017-אפר-05 22:56" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="manual" version="1.9.1.v20170319-1519">
+        <filterScript>
+
+// no filter script yet defined for this class diagram
+// use CTRL+SPACE for completion suggestions
+
+</filterScript>
+        <class className="controller.commands.CommandsFactory" modelMemberId="controller.commands.CommandsFactory" project="Sokoban" xLocation="279" yLocation="1320"/>
+        <class className="controller.SokobanController" modelMemberId="controller.SokobanController" project="Sokoban" xLocation="779" yLocation="786"/>
+        <class className="controller.server.ServerController" modelMemberId="controller.server.ServerController" project="Sokoban" xLocation="252" yLocation="803"/>
+        <class className="controller.Controller" modelMemberId="controller.Controller" project="Sokoban" xLocation="1366" yLocation="798"/>
+        <class className="controller.commands.UpdateRecordsViewCommand" modelMemberId="controller.commands.UpdateRecordsViewCommand" project="Sokoban" xLocation="1294" yLocation="2820"/>
+        <class className="controller.commands.SearchRecordCommand" modelMemberId="controller.commands.SearchRecordCommand" project="Sokoban" xLocation="1324" yLocation="2034"/>
+        <class className="controller.commands.ExitCommand" modelMemberId="controller.commands.ExitCommand" project="Sokoban" xLocation="1337" yLocation="2536"/>
+        <class className="controller.commands.SaveRecordCommand" modelMemberId="controller.commands.SaveRecordCommand" project="Sokoban" xLocation="994" yLocation="3226"/>
+        <class className="controller.commands.SetSecondsCommand" modelMemberId="controller.commands.SetSecondsCommand" project="Sokoban" xLocation="987" yLocation="2376"/>
+        <class className="controller.commands.DisplayCommand" modelMemberId="controller.commands.DisplayCommand" project="Sokoban" xLocation="986" yLocation="2108"/>
+        <class className="controller.commands.LoadCommand" modelMemberId="controller.commands.LoadCommand" project="Sokoban" xLocation="979" yLocation="1859"/>
+        <class className="controller.commands.MoveCommand" modelMemberId="controller.commands.MoveCommand" project="Sokoban" xLocation="968" yLocation="1603"/>
+        <class className="controller.commands.SaveCommand" modelMemberId="controller.commands.SaveCommand" project="Sokoban" xLocation="991" yLocation="2683"/>
+        <class className="controller.commands.SolvedCommand" modelMemberId="controller.commands.SolvedCommand" project="Sokoban" xLocation="999" yLocation="2950"/>
+        <class className="controller.commands.Command" modelMemberId="controller.commands.Command" project="Sokoban" xLocation="958" yLocation="1343"/>
+    </diagram>
+</ajsv>

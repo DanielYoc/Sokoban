@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2017-אפר-06 00:31" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="manual" version="1.9.1.v20170319-1519">
+        <filterScript>
+
+// no filter script yet defined for this class diagram
+// use CTRL+SPACE for completion suggestions
+
+</filterScript>
+        <class className="model.factories.GameElementsFactory" modelMemberId="model.factories.GameElementsFactory" project="Sokoban" xLocation="3056" yLocation="298"/>
+        <class className="model.factories.LevelLoaderFactory" modelMemberId="model.factories.LevelLoaderFactory" project="Sokoban" xLocation="-620" yLocation="430"/>
+        <class className="model.MyModel" modelMemberId="model.MyModel" project="Sokoban" xLocation="830" yLocation="343"/>
+        <class className="model.data.Level" modelMemberId="model.data.Level" project="Sokoban" xLocation="929" yLocation="878"/>
+        <class className="model.data.Cell" modelMemberId="model.data.Cell" project="Sokoban" xLocation="1544" yLocation="729"/>
+        <class className="model.factories.GameElemCharFactory" modelMemberId="model.factories.GameElemCharFactory" project="Sokoban" xLocation="2190" yLocation="912"/>
+        <class className="model.data.GameElement" modelMemberId="model.data.GameElement" project="Sokoban" xLocation="1970" yLocation="477"/>
+        <class className="model.policy.MySokobanPolicy" modelMemberId="model.policy.MySokobanPolicy" project="Sokoban" xLocation="1572" yLocation="1435"/>
+        <class className="model.data.Position" modelMemberId="model.data.Position" project="Sokoban" xLocation="1970" yLocation="100"/>
+        <class className="model.data.TxtLevelLoader" modelMemberId="model.data.TxtLevelLoader" project="Sokoban" xLocation="425" yLocation="1063"/>
+        <class className="model.data.XmlLevelLoader" modelMemberId="model.data.XmlLevelLoader" project="Sokoban" xLocation="438" yLocation="474"/>
+        <class className="model.data.ObjLevelLoader" modelMemberId="model.data.ObjLevelLoader" project="Sokoban" xLocation="445" yLocation="772"/>
+        <class className="model.data.ILevelLoader" modelMemberId="model.data.ILevelLoader" project="Sokoban" xLocation="100" yLocation="757"/>
+        <class className="model.IModel" modelMemberId="model.IModel" project="Sokoban" xLocation="902" yLocation="115"/>
+        <class className="model.data.IMovable" modelMemberId="model.data.IMovable" project="Sokoban" xLocation="2654" yLocation="261"/>
+        <class className="model.policy.IPolicy" modelMemberId="model.policy.IPolicy" project="Sokoban" xLocation="1600" yLocation="1232"/>
+        <class className="model.data.Player" modelMemberId="model.data.Player" project="Sokoban" xLocation="2346" yLocation="345"/>
+        <class className="model.data.Target" modelMemberId="model.data.Target" project="Sokoban" xLocation="1598" yLocation="500"/>
+        <class className="model.data.Floor" modelMemberId="model.data.Floor" project="Sokoban" xLocation="1620" yLocation="298"/>
+        <class className="model.data.Wall" modelMemberId="model.data.Wall" project="Sokoban" xLocation="1610" yLocation="140"/>
+        <class className="model.data.Box" modelMemberId="model.data.Box" project="Sokoban" xLocation="2362" yLocation="148"/>
+    </diagram>
+</ajsv>
